@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="/static/css/style.css">
+  <style>
+    .active-home{
+    color: white !important;
+    background-color: #198754;
+    border-radius: 5px;
+}
+.hide{
+  display: none !important;
+}
+  </style>
+  {{>bootstraphead}}
+  <title>The Study Plus</title>
+</head>
+
+<body>
+  {{>navbar data=details}}
+  <section id="hero">
+    <div class="tagline">
+      <h2 class="main-tagline">{{details.heroHeading}}</h2>
+      <p>{{details.secondTagline}}</p>
+      <a class="btn" href="#teachers">Learn</a>
+    </div>
+    <div class="side-img">
+      <img src="{{details.background}}" alt="">
+    </div>
+  </section>
+
+  <section id="teachers">
+    <h1>Teachers</h1>
+    <div class="teachers-cards">
+
+      {{#each teachers}}
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src={{this.imageUrl}} alt="Teacher image">
+        <div class="card-body">
+          <h4 class="card-title" >{{this.name}}</h4>
+          <p class="card-qualification">{{this.qualification}} | {{this.from}}</p>
+          <ul>
+            <h5>Experts</h5>
+            {{#each this.expertise}}
+            <li>{{this.subject}}</li>
+            {{/each}}
+          </ul>
+          <a href="/contact/{{this._id}}"  class="btn btn-primary" >Learn</a>
+        </div>
+      </div>
+
+      {{/each}}
+
+    </div>
+  </section>
+  {{>footer}}
+  <!-- JavaScript Bundle with Popper -->
+  {{>bootstrapbottom}}
+
+  
+</body>
+
+</html>
