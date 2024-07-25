@@ -29,5 +29,5 @@ https://docs.google.com/presentation/d/1aTNSp-L4lvRGKG1gkTiJrPa8Vxkue8HY/edit?us
 7. Handlebars
 # Contributors:
 # Team Name : Debuggers!
-Shweta Singh
-Vishal Kumar
+* Shweta Singh
+* Vishal Kumar
