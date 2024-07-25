@@ -14,20 +14,20 @@ https://docs.google.com/presentation/d/1aTNSp-L4lvRGKG1gkTiJrPa8Vxkue8HY/edit?us
 
 # Table of Contents:
 * User Login/Register
-Teacher Login/Register
-Contact Teacher
-Teacher Details
-Home Page
-Sent email to teacher
+* Teacher Login/Register
+* Contact Teacher
+* Teacher Details
+* Home Page
+* Sent email to teacher
 # Technology Stack:
-HTML
-CSS
-JavaScript
-Node Js
-Express
-MongoDB
-hbs
-Contributors:
+1. HTML
+2. CSS
+3. JavaScript
+4. Node Js
+5. Express
+6. MongoDB
+7. Handlebars
+# Contributors:
 # Team Name : Debuggers!
 Shweta Singh
 Vishal Kumar
