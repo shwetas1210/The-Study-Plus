@@ -13,7 +13,7 @@ https://youtu.be/CPtxt4pG76M
 https://docs.google.com/presentation/d/1aTNSp-L4lvRGKG1gkTiJrPa8Vxkue8HY/edit?usp=sharing&ouid=117911078992329515759&rtpof=true&sd=true
 
 # Table of Contents:
-User Login/Register
+. User Login/Register
 Teacher Login/Register
 Contact Teacher
 Teacher Details
